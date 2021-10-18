@@ -1,0 +1,40 @@
+// Custom project-specific class here
+
+/*! purgecss start ignore */
+#fp-nav ul li a.active span {
+  @apply bg-accent;
+}
+#fp-nav ul li a:not(.active) span {
+  @apply bg-accent-dark;
+}
+#fp-nav {
+  z-index: 99 !important;
+}
+@font-face {
+  font-family: "SVN-Gotham";
+  src: url("/fonts/SVN-Gotham Book.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SVN-Gotham";
+  src: url("/fonts/SVN-Gotham Regular.ttf");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SVN-Gotham";
+  src: url("/fonts/SVN-Gotham Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SVN-Gotham";
+  src: url("/fonts/SVN-Gotham Ultra.ttf");
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+}
